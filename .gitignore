@@ -5,8 +5,7 @@ __pycache__/
 
 # Environment
 .venv/
-.env
+*.env
 
 # Output
 *output.md
-*.env

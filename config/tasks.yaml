@@ -1,0 +1,14 @@
+research:
+  description: "Research the latest developments on the topic: 'AI in Healthcare'."
+  expected_output: "A detailed report with key findings and sources."
+  agent: researcher
+
+summarize:
+  description: "Summarize the research findings into 5-7 bullet points."
+  expected_output: "A concise summary of the research."
+  agent: summarizer
+
+blog:
+  description: "Write a 500-word blog post using the research and summary."
+  expected_output: "A well-structured blog post ready for publishing."
+  agent: writer

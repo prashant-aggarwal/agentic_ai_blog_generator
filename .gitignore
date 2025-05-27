@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+**/__pycache__/
+
+# Environment
+.venv/
+
+# Output
+*output.md

@@ -42,7 +42,7 @@ git clone https://github.com/prashant-aggarwal/agentic_ai_blog_generator.git
 cd agentic_ai_blog_generator
 ```
 
-### 2. Create `.env` file
+### 2. Create `.env` file in the root directory
 
 ```env
 MODEL_ID=<Desired model id> e.g. anthropic.claude-v2

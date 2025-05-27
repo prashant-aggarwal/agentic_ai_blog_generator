@@ -9,3 +9,4 @@ __pycache__/
 
 # Output
 *output.md
+*.env

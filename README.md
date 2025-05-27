@@ -1,6 +1,6 @@
 # Agentic Blog Creator
 
-This is a modular Python project that uses [CrewAI](https://docs.crewai.com/) and Amazon Bedrock via environment-based configuration to generate AI-powered blog posts. It applies agent-based reasoning for task-specific responsibilities such as research, summarization, and blog writing.
+This is a modular Python project that uses [CrewAI](https://docs.crewai.com/) decorators and Amazon Bedrock via environment-based configuration to generate AI-powered blog posts. It applies agent-based reasoning for task-specific responsibilities such as research, summarization, and blog writing.
 
 ---
 
@@ -18,13 +18,10 @@ This is a modular Python project that uses [CrewAI](https://docs.crewai.com/) an
 
 ```
 agentic_ai_blog_generator/
-├── crew_config/
+├── config/
 │   ├── agents.yaml        # Defines agent roles and goals
 │   └── tasks.yaml         # Defines tasks linked to agents
-├── modules/
-│   ├── agent_task_builder.py  # Loads agents/tasks from YAML
-│   ├── crew_executor.py       # Orchestrates CrewAI workflow
-│   └── llm_initializer.py     # Initializes Bedrock LLM
+├── crew.py              # Orchestrates CrewAI workflow
 ├── main.py              # Main execution file
 ├── .env                 # Environment configuration (MODEL_ID, REGION)
 ├── requirements.txt     # Python dependencies

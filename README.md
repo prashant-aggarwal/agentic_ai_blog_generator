@@ -38,7 +38,7 @@ agentic_ai_blog_generator/
 ### 1. Clone the repository
 
 ```bash
-git clone [agentic_ai_blog_generator](https://github.com/prashant-aggarwal/agentic_ai_blog_generator.git)
+git clone https://github.com/prashant-aggarwal/agentic_ai_blog_generator.git
 cd agentic_ai_blog_generator
 ```
 
